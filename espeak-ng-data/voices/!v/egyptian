@@ -1,0 +1,21 @@
+language egy
+name Egyptian
+gender male
+
+pitch 120 140
+flutter 0
+roughness 0
+tone 100 255 400 80 800 40 1600 20 2400 10
+
+formant 0 99  80 150
+formant 1 120 60 160
+formant 2 99 70 110 150
+formant 3 116 77 150
+formant 4 9 59 110
+formant 5 100 50 2
+formant 6 104 80 150
+formant 7 110 70 150
+formant 8 110 70 150
+
+stressAmp 20 20 28 28 20 20 24 28
+consonants 60 85 

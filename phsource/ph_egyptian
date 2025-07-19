@@ -1,0 +1,22 @@
+// Ancient Egyptian phoneme definitions
+// This language has only three letters: p, t, and r, plus ayin (ع)
+// All consonants pronounced like Latin, except ayin which is like Arabic
+
+// Vowels - using basic vowels from base1
+// The language will inherit basic vowels from base1
+
+// Consonants - p, t, and r are already defined in base1, so we inherit them
+// p is pronounced as voiceless bilabial plosive [p]
+// t is pronounced as voiceless alveolar plosive [t]
+// r is pronounced as alveolar approximant [r]
+
+// Ayin (ع) - voiced pharyngeal fricative
+phoneme A
+  vcd phr frc
+  lengthmod 3
+  ipa ʕ
+  Vowelin f1=0 f2=1000 -200 300 f3=-100 80
+  Vowelout f1=0 f2=1000 -200 300 f3=-100 80
+  
+  WAV(h/h_, 70)
+endphoneme 

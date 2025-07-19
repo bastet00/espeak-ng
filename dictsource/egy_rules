@@ -1,0 +1,50 @@
+// Ancient Egyptian spelling-to-phoneme rules
+// This file is UTF-8 encoded
+// Ancient Egyptian has only two letters: p and t, both pronounced like Latin
+
+// Letter groups
+.L01 a e i o u
+.L02 p t r ꜥ
+
+// Vowels - using basic vowels
+.group a
+             a            a
+             aa           a:
+
+.group e
+             e            e
+             ee           e:
+
+.group i
+             i            i
+             ii           i:
+
+.group o
+             o            o
+             oo           o:
+
+.group u
+             u            u
+             uu           u:
+
+// Consonants - p, t, r, and ayin (ꜥ)
+.group p
+             p            p
+             pp           p:
+
+.group t
+             t            t
+             tt           t:
+
+.group r
+             r            r
+             rr           r:
+
+.group ꜥ
+             ꜥ            A
+             ꜥꜥ           A:
+
+// Default rule for any other characters
+// This will handle any other characters that might be input
+.group *
+             *            * 

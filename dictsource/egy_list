@@ -1,0 +1,116 @@
+// Ancient Egyptian dictionary list
+// This file is UTF-8 encoded
+// All words in lower case
+
+// Letter names
+//========
+// Only four letters in Ancient Egyptian: p, t, r, and ayin (ꜥ)
+
+p	pe:
+t	te:
+r	re:
+ꜥ	A:
+
+// Numbers
+//========
+// Using basic number pronunciations
+
+0	'ziro
+1	'wan
+2	'tu:
+3	'Tri:
+4	'fo:r
+5	'faiv
+6	'siks
+7	'sevn
+8	'eit
+9	'nain
+10	'ten
+11	i'levn
+12	'twelv
+13	'Ti:ti:n
+14	'fo:ti:n
+15	'fifti:n
+16	'sikti:n
+17	'sevnti:n
+18	'eitti:n
+19	'nainti:n
+20	'twenti
+30	'Ti:ti
+40	'fo:ti
+50	'fifti
+60	'sikti
+70	'sevnti
+80	'eitti
+90	'nainti
+100	'handr@d
+1000	'Thauz@nd
+
+// Common words and their attributes
+//========
+
+// Function words that should be unstressed
+a $u
+an $u
+the $u
+and $u $brk
+or $u $brk
+but $u $brk
+if $u
+of $u
+in $u
+on $u
+at $u
+to $u
+for $u
+with $u
+by $u
+from $u
+up $u
+down $u
+out $u
+off $u
+over $u
+under $u
+through $u
+between $u
+among $u
+before $u
+after $u
+during $u
+since $u
+until $u
+while $u
+when $u
+where $u
+why $u
+how $u
+what $u
+who $u
+which $u
+that $u
+this $u
+these $u
+those $u
+is $u
+are $u
+was $u
+were $u
+be $u
+been $u
+being $u
+have $u
+has $u
+had $u
+do $u
+does $u
+did $u
+will $u
+would $u
+could $u
+should $u
+may $u
+might $u
+can $u
+must $u
+shall $u 
